@@ -16,7 +16,9 @@ Table from Graham 2011:![](nb_files/img1.png)
 
 
 
-### A proposed solution to automated period-finding using supervised machine learning classification:
+## Proposed Solution
+
+### Automated period-finding using supervised machine learning classification:
 
 **Supervised learning** requires two steps:
 1. **Training step**: given an *n*-dimensional **feature vector** for *N* training sources with known periods (represented by a **label vector**), the parameters of a machine learning classifier are optimized to output the training labels. 
@@ -109,3 +111,13 @@ Potentially useful libraries:
 - [tsfresh](https://tsfresh.readthedocs.io/en/latest/index.html)
 - [feets](https://feets.readthedocs.io/en/latest/)
 - others?
+
+
+
+## TASKS
+
+- [ ] gather a training sample of time series data with known periods
+- [ ] implement period-finding algorithms
+- [ ] develop code/methods to extract features
+- [ ] compute periods and features of all training sample sources 
+- [ ] test different ML classifiers
